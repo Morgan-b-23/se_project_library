@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triple Peaks Library</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Triple Peaks Library Logo"
+            class="nav__logo"
+          />
+          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
+          <ul class="nav__links">
+            <li>
+              <a href="#bookmark-events" class="nav__link">Events</a>
+            </li>
+            <li>
+              <a href="#bookmark-staff" class="nav__link">Reader picks</a>
+            </li>
+            <li>
+              <a href="#bookmark-membership" class="nav__link"
+                >Become a member</a
+              >
+            </li>
+            <li>
+              <a href="#bookmark-about" class="nav__link">About</a>
+            </li>
+            <li>
+              <a href="#bookmark-footer" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">Welcome to the Triple Peaks Library</h1>
+        <p class="header__description">
+          We're pleased to open our library doors to everyone! Come and expand
+          your development knowledge, or just use this lovely spot to work or
+          study. This is a cool place for cool students!
+        </p>
+        <img
+          src="./images/inside_the_library.png"
+          alt="Illustration 'Inside the library'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <a href="#bookmark-about" class="header__link"
+            >About the library &darr;</a
+          >
+          <p class="header__address">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
+      <main class="content">
+        <section class="events" id="bookmark-events">
+          <div class="events__content">
+            <h2 class="events__heading">Upcoming events:</h2>
+            <h3 class="events__title">
+              In honor of Joan Feynman: Women in astrophysics
+            </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <div
+                  class="event-info__icon event-info__icon_type_calendar"
+                ></div>
+                <p class="event-info__text">Mon, January 12</p>
+              </div>
+              <div class="event-info__item">
+                <div class="event-info__icon event-info__icon_type_pin"></div>
+                <p class="event-info__text">
+                  Triple Peaks Library Conference Hall & Online
+                </p>
+              </div>
+            </div>
+            <p class="events__description">
+              At this event, which celebrates the library's namesake, our guest
+              lecturer will take us on a journey exploring some of the most
+              prominent female researchers in the world of space science. It's
+              easy to buy into the misconception that this field was mostly
+              dominated by men, but our lecture aims to change that notion and
+              prove that this hasn't been the case since at least the 18th
+              century.
+            </p>
+            <a href="#" class="events__more">More events &rarr;</a>
+          </div>
+          <div class="events__cover">
+            <img
+              src="images/cafe.png"
+              alt="picture of cafe"
+              class="events__image"
+            />
+            <figure class="person person_name_feynman">
+              <figcaption class="person__caption">Joan Feynman</figcaption>
+              <img
+                src="images/person_feynman.png"
+                alt="picture of feyman"
+                class="person__image person__image_size_l"
+              />
+            </figure>
+            <figure class="person person_name_burbidge">
+              <figcaption class="person__caption">Margaret Burbidge</figcaption>
+              <img
+                src="images/person_burbidge.png"
+                alt="picture of burbidge"
+                class="person__image person__image_size_m"
+              />
+            </figure>
+            <figure class="person person_name_cannon">
+              <img
+                src="images/person_cannon.png"
+                alt="picture of cannon"
+                class="person__image person__image_size_m"
+              />
+              <figcaption class="person__caption">Annie Jump Cannon</figcaption>
+            </figure>
+            <figure class="person person_name_mitchell">
+              <img
+                src="images/person_mitchell.png"
+                alt="picture of mitchell"
+                class="person__image person__image_size_s"
+              />
+              <figcaption class="person__caption">Maria Mitchell</figcaption>
+            </figure>
+            <figure class="person person_name_tarter">
+              <figcaption class="person__caption">Jill Tarter</figcaption>
+              <img
+                src="images/person_tarter.png"
+                alt="picture of Tarter"
+                class="person__image person__image_size_m"
+              />
+            </figure>
+          </div>
+        </section>
+        <section class="staff" id="bookmark-staff">
+          <h2 class="staff__title">Reader picks</h2>
+          <p class="staff__subtitle">That our readers love</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Enders game</h3>
+                <p class="card__text">
+                  This is one of the books that I constantly come back to. Its
+                  plot is about a young boy named Ender Wiggins who's sent to a
+                  military force academy in space to train as an elite officer.
+                  We follow along the story of how he overcomes obstacles and
+                  eventually find his true place in the academy. It's a classic
+                  for a reason and a short read. So if you like sci-fi and a bit
+                  of a coming-of-age story with a nice twist at the end I would
+                  recommend.
+                </p>
+                <p class="card__footer">Orson Scott Card</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">The richest man in Babylon</h3>
+                <p class="card__text">
+                  This is more of a self-help book that talks about a fiance
+                  through a collection of parables. I picked it up while wanting
+                  to learn how to make make money work for you, not the other
+                  way around. It's another short read and gives good advice on
+                  how to be responsible with your finances through rich and
+                  interesting stories.
+                </p>
+                <p class="card__footer">George S. Clason</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Frankenstein</h3>
+                <p class="card__text">
+                  This is another classic, for good reason, That follows the
+                  story of Dr. Frankenstien and the hollowing downward spiral of
+                  his life after his curiosity and obsession get the best of
+                  him. This book is more of a horror fiction novel that I would
+                  also suggest to read it if you haven't already. It's a very
+                  captivating and emotionally moving story that will have you
+                  coming back for a second read.
+                </p>
+                <p class="card__footer">Mary Shelley</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Burial Rites</h3>
+                <p class="card__text">
+                  Burial Rites is a historical fiction novel based on a true
+                  story. It follows the story of Agnes who has been sentenced to
+                  death for murder. We go through her past and the events
+                  leading up to the "murder" that ultimately would make her a
+                  part of the last public execution of a woman in Iceland. This
+                  book has more of a dark mystery feel to it, and if you are
+                  better with sad endings than I am this would be a great book
+                  to pick up.
+                </p>
+                <p class="card__footer">Hannah Kent</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="membership" id="bookmark-membership">
+          <h2 class="membership__title">Becoming a library member is easy!</h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Step 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Fill out the membership form online or in person.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Come pick up your library card at the front desk.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Sign the back of the card.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Enjoy all the awesome benefits of membership!
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="about" id="bookmark-about">
+          <h2 class="about__title">About the library</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Libraries are essential establishments in practically every city,
+              and the Triple Peaks Library is no exception. It first opened its
+              doors way back in 2018, right as our humble town began bidding
+              welcome to its very first citizens!
+            </p>
+            <p class="about__paragraph">
+              Since its initial opening, the library has seen nearly 342 monthly
+              visitors. That's almost 50% of our population! So far, most
+              citizens have enjoyed reading books and using our ample online
+              resources.
+            </p>
+            <p class="about__paragraph">
+              Become a member today, and make sure to check out our Staff Picks
+              section. This week's selection is full of books anyone interested
+              in computer programming would love!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
+      </main>
+      <footer class="footer" id="bookmark-footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_white.svg"
+              alt="Tripleten logo"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h3 class="footer__column-heading">Hours</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am – 8pm</li>
+              <li class="footer__list-item">Weekends: 10am – 6pm</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="facebook logo"
+                    class="footer__social-icon"
+                  />
+                  Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram logo"
+                    class="footer__social-icon"
+                  />
+                  instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2023 Morgan Brown</p>
+      </footer>
+    </div>
+  </body>
+</html>
